@@ -1,0 +1,217 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(236, 212, 212);
+            color: rgb(0, 0, 0);
+            font-family: 'Balsamiq Sans', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-size: medium;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(74, 138, 44);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+        }
+
+        nav ul li a:hover {
+            font-size: 1.1rem;
+            color: rgb(170, 199, 219);
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+            justify-content: space-around;
+            padding: 5px;
+        }
+
+        .left img {
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+        }
+
+        #firstImage {
+            margin: -15px 40px;
+        }
+
+        .firstSection {
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 15vh 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px;
+            background-color: rgb(76, 93, 113);
+            color: rgb(255, 254, 254);
+            border: 2px solid rgb(4, 2, 2);
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 70%;
+            margin: 0px 0px;
+
+        }
+
+        .purple {
+            color: rgb(19, 19, 230);
+        }
+
+        .text-gray {
+            color: rgb(107, 63, 63);
+            font-size: 12px;
+        }
+
+        #element {
+            color: rgb(15, 15, 207);
+        }
+
+        main hr {
+            height: 1.2px;
+            border: 0;
+            background-color: rgb(15, 14, 13);
+            margin: 40px 84px;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 30vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box {
+            width: 80vh;
+            margin: 1rem;
+            justify-content: space-around;
+        }
+
+        .secondSection .box h3 {
+            text-decoration: underline;
+        }
+
+        .Intern {
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospaces;
+        }
+
+        .Intern a {
+            color: rgb(6, 56, 99);
+        }
+
+        .Intern a:hover {
+            color: rgb(15, 29, 41);
+            font-size: 23px;
+        }
+
+        #sec3 {
+            margin-left: 150px;
+        }
+
+        #sec3 div {
+            padding: 20px;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #sec4 {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        #sec4 div {
+            padding: 20px;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #sec5 {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        #sec5 div {
+            padding: 20px;
+        }
+
+        .fifthClass {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .fifthClass a {
+            color: rgb(168, 95, 236);
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .fifthClass p {
+            padding: 20px;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .fifthClass a {
+            font-size: 22px;
+            color: rgb(55, 72, 129);
+        }
+
+        .fifthClass a:hover {
+            font-size: 25px;
+            color: rgb(123, 125, 129);
+
+        }
+
+        footer {
+
+            height: 25px;
+            font-size: medium;
+            font-size: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: aliceblue;
+            background-color: rgb(50, 78, 32);
+        }

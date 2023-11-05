@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Poppins:wght@700&family=Roboto+Mono:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="pp.jpg" alt="Reload site" id="firstImage">Arpit - Portfolio
+            </div>
+            <div class="right" id="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#sec2">Work Exp.</a></li>
+                    <li><a href="#sec3">Projects</a></li>
+                    <li><a href="#sec4">About</a></li>
+                    <li><a href="#sec5">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii, My name is <span class="purple">Arpit</span>
+                <div>and i'm a enthusiastic </div>
+                <span id="element"></span>
+                <div>
+                    <a href="https://tinyurl.com/4uj8tkc9"
+                        target="_blank"><button class="btn">Download Resume</button></a>
+                    <a href="#sec5"><button class="btn">Contact Me</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="Reload Page">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="sec2">
+            <span class="text-gray">What i have done so far(I'm a Fresher)</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <h3>Web Developer(INTERNSHIP), Digital Bhem</h3>
+                <div class="left_1">
+                    (July,2023 - August,2023)
+                    <p class="Intern">In this profile worked as a web developer intern and develop
+                        a simple shopping site landing page by using tools like HTML,
+                        CSS and JavaScript.(<a href="https://new-shopping-world.netlify.app/" target="_blank"><b>CLICK
+                                HERE</b>></a>)
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection" id="sec3">
+            <h1>Projects</h1>
+            <div class="thirdClass">
+                <p>There are lots of Projects which are related to various field</p>
+                <p>Click on the button</p>
+                <a href="https://github.com/" target="_blank"
+                    style="text-decoration: none; color: rgb(255, 255, 255);"><button class="btn">Click_Now</button></a>
+            </div>
+        </section>
+        <hr>
+        <section class="forthSection" id="sec4">
+            <h1>About</h1>
+            <div class="ForthClass">
+                <p>As a final-year B.Tech student, I possess strong expertise in HTML, CSS, and JavaScript, with a knack
+                    for creative web development. I'm proficient in Java for problem-solving and well-versed in data
+                    structures. I'm passionate about crafting interactive web experiences and solving real-world
+                    challenges through technology.</p>
+            </div>
+        </section>
+        <hr>
+        <section class="fifthSection" id="sec5">
+            <h1>Contact Me</h1>
+            <div class="fifthClass">
+                <div>M.no
+                    <p>+91 6393448336</p>
+                </div>
+                <div>Email
+                    <p>arpit.regkec-260-20@krishnacollege.ac.in</p>
+                </div>
+                <div>Linkedin
+                    <br>
+                    <a href="https://www.linkedin.com/in/arpit-pandey-489654226/" target="_blank">Click here</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ArpitPandey. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Developer', 'Java Developer', 'Web Developer', 'Workoholic In Nature'],
+            typeSpeed: 100,
+        });
+    </script>
+    <script>
+        // JavaScript to handle smooth scrolling
+        document.querySelectorAll('#navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                const offset = targetElement.getBoundingClientRect().top;
+
+                window.scrollBy({
+                    top: offset,
+                    behavior: 'smooth',
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
